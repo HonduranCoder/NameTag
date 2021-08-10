@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
+
+.name-tag {
+	background-color: red;
+	height: 350px;
+	width: 550px;
+	display: grid;
+	grid-template-rows: 1fr 2fr 1fr;
+	border-radius: 15px;
+	text-align: center;
+	margin-left: 45px;
+}
+
+.hello {
+	color: white;
+}
+
+.name {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	font-family: WindSong;
+}
+
+.bottom {
+	background-color: red;
+}
+
+header,
+footer {
+	display: flex;
+	font-weight: bolder;
+	justify-content: left;
+	margin-left: 280px;
+}
+
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	background-color: black;
+	position: fixed;
+	height: 370px;
+	overflow: auto;
+}
+
+.pic {
+	color: white;
+}
