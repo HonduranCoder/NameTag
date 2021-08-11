@@ -1,6 +1,6 @@
 const buttonEl = document.getElementById("Name-Button");
 const headerEl = document.getElementById("header"); 
-const clicksEl = document.getElementById("clickNumber");
+/*const clicksEl = document.getElementById("clickNumber");*/
 
 buttonEl.addEventListener('click', ()=> {
     const inputEl = document.getElementById("input"); 
@@ -14,3 +14,10 @@ function onClick(){
     clicks += 1; 
     document.getElementById("clickNumber").innerHTML = clicks;
 };*/
+
+/*
+HTML: onclick= "empty()" value = reset.
+
+function reset(){
+    document.getElementById("input").empty();
+}*/
