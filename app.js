@@ -7,6 +7,7 @@ buttonEl.addEventListener('click', ()=> {
     console.log(inputEl.value);
 
     headerEl.textContent = inputEl.value;
+    inputEl.value=""
 });
 
 /*let clicks = 0; 
